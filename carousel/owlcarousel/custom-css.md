@@ -8,6 +8,8 @@ add class standy high what ever img have high.
 ```
 
 ## include css
+overflow make image crop if over the height,
+class img-fluid and img-thumbnail bootstrap may help image have some constant size.
 note: height can be custom
 
 ```css
