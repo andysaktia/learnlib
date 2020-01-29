@@ -1,4 +1,8 @@
-  var owl = $('.owl-carousel');
+## custom setting
+this code intepreting carousel that have responsive ui.
+
+```js  
+var owl = $('.owl-carousel');
   owl.owlCarousel({
       // items:4,
       loop:true,
@@ -30,3 +34,4 @@
   $('.stop').on('click',function(){
       owl.trigger('stop.owl.autoplay')
     })
+```
