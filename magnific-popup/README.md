@@ -1,3 +1,9 @@
+
+## in html
+```html
+<a href="img.jpg" class="down-popup"><img src=" img.jpg"></a>
+```
+
 ## install plugin
 
 ```js
