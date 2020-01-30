@@ -24,14 +24,14 @@ class filter-active in tag li make display possible to show.
 
 ```html
   <li data-filter=".Category" class="filter-active"><?= $item['name'];?></li>
-     <!-- BLOCK THAT WILL BE FILTER-->
-      <div class="row portfolio-container">
-        <div class="col-lg-4 portfolio-item Category">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="<?= $image ;?>" class="img-fluid" alt=""> 
-                </figure> 
-            </div>
-         </div> 
-      </div>
+  <!-- BLOCK THAT WILL BE FILTER-->
+  <div class="row portfolio-container">
+    <div class="col-lg-4 portfolio-item Category">
+        <div class="portfolio-wrap">
+            <figure>
+                <img src="<?= $image ;?>" class="img-fluid" alt=""> 
+            </figure> 
+        </div>
+     </div> 
+  </div>
 ```
