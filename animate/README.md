@@ -15,3 +15,4 @@ add class wow and animate.css in container html.
 <div class="row wow fadeInLeft delay-02s animated">
 </div>
 ```
+class animate that often i used is basic animated like `fadeInLeft`, `fadeInRight`, `fadeInUp`and `fadeInDown`.
