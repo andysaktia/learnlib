@@ -1,8 +1,10 @@
+## include css and js
+my assume you have include jquery.js
 
-## in html
 ```html
-<a href="img.jpg" class="down-popup"><img src=" img.jpg"></a>
-```
+<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> 
+<script src="vendor/magnific-popup/magnific-popup.js"></script>
+``
 
 ## install plugin
 
@@ -24,4 +26,11 @@
       }
     }
   });
+```
+
+## set in html
+add class that you set when install in href. My case is down-popup.
+
+```html
+<a href="img.jpg" class="down-popup"><img src=" img.jpg"></a>
 ```
