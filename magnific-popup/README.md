@@ -4,7 +4,7 @@ my assume you have include jquery.js
 ```html
 <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> 
 <script src="vendor/magnific-popup/magnific-popup.js"></script>
-``
+```
 
 ## install plugin
 
