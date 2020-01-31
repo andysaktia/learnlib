@@ -16,6 +16,19 @@
     portfolioIsotope.isotope({ filter: $(this).data('filter') });
   });
   
+  
+  //option2
+  var $grid = $('.grid').isotope({
+    itemSelector: '.filter-item',
+});
+
+// filter items on button click
+$('.grid-flters').on( 'click', 'option',function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+
+});
+  
   ```
 
 ## practice in html
