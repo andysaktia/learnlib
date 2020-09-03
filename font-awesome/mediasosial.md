@@ -9,6 +9,9 @@
 
 ## include css:
 ```css
+.fa-whatsapp{
+ color: #25d366;
+}
 .fa-facebook-square {
   color: #3b5999;
 }
